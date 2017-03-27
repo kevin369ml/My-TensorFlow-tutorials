@@ -1,0 +1,11 @@
+How to use TensorFlow to process our own data?
+  - read in data
+  - make an input queue
+  - generate batches
+  - train
+  - save model architecture and parameters
+  - restore model architecture and parameters
+  - test new data
+
+Data: The cats vs. dogs dataset from Kaggle were used
+Download link: https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
