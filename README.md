@@ -1,4 +1,4 @@
-# My-TensorFlow-tutorials-on-youtube
+# My-TensorFlow-tutorials
 1. This repo contains all of my TensorFlow tutorials.
 2. The main coverage:
   - deep learning
