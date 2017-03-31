@@ -10,4 +10,4 @@ How to use TensorFlow to process our own data?
 Data: The cats vs. dogs dataset from Kaggle were used
 Download link: https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 
-![alt tag](http://domain.com/path/to/img.png "Description goes here")
+![alt text](http://domain.com/path/to/img.png "Description goes here")
