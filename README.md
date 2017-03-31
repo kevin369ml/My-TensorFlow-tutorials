@@ -11,4 +11,5 @@
 3. My Chinese youku (优酷）：http://i.youku.com/deeplearning101
 
 # Have fun!
-![alt text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/01%20cats%20vs%20dogs/images/cover.jpg "cover_image")
+![alt text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/01%20cats%20vs%20dogs/images/starry%20night%20dd3.jpg)
+
