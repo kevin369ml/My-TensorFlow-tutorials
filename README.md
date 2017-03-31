@@ -1,6 +1,6 @@
 # My-TensorFlow-tutorials
 1. This repo contains all of my TensorFlow tutorials.
-2. The main coverage:
+2. The goal:
   - deep learning
   - computer vision
   
