@@ -10,7 +10,9 @@
 # The data
   - Data: The cats vs. dogs dataset from Kaggle were used
  - Download link: https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
- 
+# The goal
+  - the goal of this project is to show how to use Tensorflow to process our own data.
+  - only 2 conv layers are used here, more complex and powerful models will be covered in the future 
 # Screenshots
 ![alt text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/01%20cats%20vs%20dogs/images/011.png)
 
