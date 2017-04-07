@@ -131,6 +131,7 @@ def run_training():
 #        N_CLASSES = 2
 #        
 #        image = tf.cast(image_array, tf.float32)
+#        image = tf.image.per_image_standardization(image)
 #        image = tf.reshape(image, [1, 208, 208, 3])
 #        logit = model.inference(image, BATCH_SIZE, N_CLASSES)
 #        
