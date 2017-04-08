@@ -1,6 +1,6 @@
 # How to transform our data into TFRecord?
-  1. transform data into TFRecord
-  2. read TFRecord
+  1. transform data into TFRecord format
+  2. read TFRecord file
   3. generate batch
 
   
