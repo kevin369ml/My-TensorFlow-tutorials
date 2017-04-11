@@ -79,7 +79,7 @@ def run_training():
             _, tra_loss, tra_acc = sess.run([train_op, train_loss, train__acc])
                
             if step % 50 == 0:
-                print('Step %d, train loss = %.2f, train accuracy = %.2f%%' %(step, tra_loss, tra_acc))
+                print('Step %d, train loss = %.2f, train accuracy = %.2f%%' %(step, tra_loss, tra_acc*100.0))
                 summary_str = sess.run(summary_op)
                 train_writer.add_summary(summary_str, step)
             
