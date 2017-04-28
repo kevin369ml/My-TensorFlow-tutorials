@@ -22,7 +22,7 @@ https://arxiv.org/abs/1409.1556
 https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM
 2. For Chinese users, I put it on baidu: https://pan.baidu.com/s/1pLGzull
 2. Remove the final layer, add one layer with 10 nodes to test the CIFAR10 dataset.
-3. It took me around one hour to train with 15000 training steps and learning rate is 0.01.
+3. It took me around one hour to train with 15000 training steps and learning rate is 0.01. The testing accuracy on the CIFAR10 test dataset is about 87%.
 # Screenshots:
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/000.JPG?raw=true)
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/001.JPG?raw=true)
@@ -30,3 +30,4 @@ https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/007.png?raw=true)
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/008.JPG?raw=true)
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/009.JPG?raw=true)
+(the final figure is not fully trained yet.)
