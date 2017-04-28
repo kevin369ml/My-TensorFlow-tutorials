@@ -20,6 +20,7 @@ https://arxiv.org/abs/1409.1556
 # My training
 1. load pre-trained parameters (trained on ImageNet dataset, 1000 classes), you can download the parameter file(vgg16.npy) here:
 https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM
+2. For Chinese users, I put it on baidu: https://pan.baidu.com/s/1pLGzull
 2. Remove the final layer, add one layer with 10 nodes to test the CIFAR10 dataset.
 3. It took me around one hour to train with 15000 training steps and learning rate is 0.01.
 # Screenshots:
