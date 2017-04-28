@@ -31,3 +31,12 @@ https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/008.JPG?raw=true)
 ![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/009.JPG?raw=true)
 (the final figure is not fully trained yet.)
+# References
+1. https://github.com/tensorflow/tensorflow/blob/129665119ea60640f7ed921f36db9b5c23455224/tensorflow/contrib/slim/python/slim/learning.py
+2. https://github.com/huyng/tensorflow-vgg
+3. https://hackernoon.com/learning-keras-by-implementing-vgg16-from-scratch-d036733f2d5
+4. http://stackoverflow.com/questions/33783672/how-can-i-visualize-the-weightsvariables-in-cnn-in-tensorflow
+5. http://r2rt.com/implementing-batch-normalization-in-tensorflow.html
+6. https://github.com/boyw165/tensorflow-vgg
+7. http://cs231n.github.io/
+8. etc.
