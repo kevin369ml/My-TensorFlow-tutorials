@@ -15,5 +15,15 @@ https://arxiv.org/abs/1409.1556
 4. conv + 3 fully-connected layers (number of FC neurons: 4096 > 4096 > n_classes)
   
 5. learning rate decay, parameter initializaiton from pre-trained models, etc.
+# My training
+1. load pre-trained parameters (trained on ImageNet dataset, 1000 classes), you can download the parameter file(vgg16.npy) here:
+https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM
+2. Remove the final layer, add one layer with 10 nodes to test the CIFAR10 dataset.
+3. It took me around one hour to train with 15000 training steps and learning rate is 0.01.
 # Screenshots:
-
+![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/000.JPG?raw=true)
+![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/001.JPG?raw=true)
+![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/002.JPG?raw=true)
+![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/007.png?raw=true)
+![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/008.JPG?raw=true)
+![alt_text](https://github.com/kevin28520/My-TensorFlow-tutorials/blob/master/04%20VGG%20Tensorflow/images/009.JPG?raw=true)
