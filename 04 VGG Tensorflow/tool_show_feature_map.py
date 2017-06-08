@@ -22,10 +22,10 @@ def show_feature_map():
         x_b = tf.nn.bias_add(x_w, b)        
         x_relu = tf.nn.relu(x_b)
     
-    n_feature = int(x_w.get_shape()[-1])
+    n_feature = int(x_relu.get_shape()[-1])
     sess = tf.Session()
     sess.run(tf.global_variables_initializer())
-    feature_map = tf.reshape(x_w, [360,300,out])
+    feature_map = tf.reshape(x_relu, [360,300,out])
     images = tf.image.convert_image_dtype (feature_map, dtype=tf.uint8)
     images = sess.run(images)
 
@@ -58,7 +58,7 @@ def show_rich_feature():
         
         out = 64
         
-        n_feature = int(x_w.get_shape()[-1])
+        n_feature = int(x_relu.get_shape()[-1])
         sess = tf.Session()
         sess.run(tf.global_variables_initializer())
         feature_map = tf.reshape(x_relu, [360,300,out])
