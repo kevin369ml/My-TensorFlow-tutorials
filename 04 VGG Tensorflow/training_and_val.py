@@ -55,15 +55,16 @@ def train():
                                                  is_train=False,
                                                  batch_size= BATCH_SIZE,
                                                  shuffle=False)
-    
-    logits = VGG.VGG16N(tra_image_batch, N_CLASSES, IS_PRETRAIN)
-    loss = tools.loss(logits, tra_label_batch)
-    accuracy = tools.accuracy(logits, tra_label_batch)
-    my_global_step = tf.Variable(0, name='global_step', trainable=False) 
-    train_op = tools.optimize(loss, learning_rate, my_global_step)
-    
+        
     x = tf.placeholder(tf.float32, shape=[BATCH_SIZE, IMG_W, IMG_H, 3])
-    y_ = tf.placeholder(tf.int16, shape=[BATCH_SIZE, N_CLASSES])    
+    y_ = tf.placeholder(tf.int16, shape=[BATCH_SIZE, N_CLASSES]) 
+    
+    logits = VGG.VGG16N(x, N_CLASSES, IS_PRETRAIN)
+    loss = tools.loss(logits, y_)
+    accuracy = tools.accuracy(logits, y_)
+    
+    my_global_step = tf.Variable(0, name='global_step', trainable=False) 
+    train_op = tools.optimize(loss, learning_rate, my_global_step)   
     
     saver = tf.train.Saver(tf.global_variables())
     summary_op = tf.summary.merge_all()   
