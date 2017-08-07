@@ -1,7 +1,8 @@
 #By @Kevin Xu
 #kevin28520@gmail.com
-#Youtube: https://www.youtube.com/channel/UCVCSn4qQXTDAtGWpWAe4Plw
-#
+
+# 深度学习QQ群, 1群满): 153032765
+# 2群：462661267
 #The aim of this project is to use TensorFlow to process our own data.
 #    - input_data.py:  read in data and generate batches
 #    - model: build the model architecture
