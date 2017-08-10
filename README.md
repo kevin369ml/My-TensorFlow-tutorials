@@ -11,7 +11,7 @@
 3. My Chinese youku (优酷): http://i.youku.com/deeplearning101
 
 4. Chinese readers:
-   深度学习QQ群: 153032765 (人满),  请加2群：462661267
+   *深度学习QQ群: 153032765 (人满),  请加2群：462661267
 
 
 # Have fun!
