@@ -117,7 +117,7 @@ def get_batch(image, label, image_W, image_H, batch_size, capacity):
     image = tf.image.resize_image_with_crop_or_pad(image, image_W, image_H)    
     # if you want to test the generated batches of images, you might want to comment the following line.
     
-    # 如果想要看到正常的图片，请注释掉121行（标准化）和129行（转成float）
+    # 如果想看到正常的图片，请注释掉111行（标准化）和 130行（image_batch = tf.cast(image_batch, tf.float32)）
     # 训练时，不要注释掉！
     image = tf.image.per_image_standardization(image)
     
