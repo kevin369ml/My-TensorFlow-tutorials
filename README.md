@@ -10,8 +10,8 @@
 2. My Chinese weibo (微博): http://weibo.com/3983872447/profile
 3. My Chinese youku (优酷): http://i.youku.com/deeplearning101
 
-4. Chinese reader:
-  >>> 深度学习QQ群: 153032765 (人满),  请加2群：462661267
+4. Chinese readers:
+   深度学习QQ群: 153032765 (人满),  请加2群：462661267
 
 
 # Have fun!
