@@ -3,7 +3,7 @@
 # My youtube: https://www.youtube.com/channel/UCVCSn4qQXTDAtGWpWAe4Plw
 # My Chinese weibo (微博): http://weibo.com/3983872447/profile
 # My Chinese youku (优酷): http://i.youku.com/deeplearning101
-# My QQ group (深度学习QQ群): 153032765
+# (深度学习QQ群): 153032765 (人满), 请加2群：462661267
 
 #The aim of this project is to use TensorFlow to transform our own data into TFRecord format.
 
