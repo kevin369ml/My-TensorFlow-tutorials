@@ -4,8 +4,7 @@
 #My youtube: https://www.youtube.com/c/KevinXu
 #My Chinese weibo (微博): http://weibo.com/3983872447/profile
 #My Chinese youku (优酷): http://i.youku.com/deeplearning101
-# 深度学习QQ群, 1群满): 153032765
-# 2群：462661267
+# (深度学习QQ群): 153032765 (人满), 请加2群：462661267
 
 #%%
 #DATA:
