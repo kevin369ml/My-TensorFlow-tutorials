@@ -66,13 +66,16 @@ def run_training():
                                                   BATCH_SIZE, 
                                                   CAPACITY)
     
-    logits = model.inference(train_batch, BATCH_SIZE, N_CLASSES)
-    loss = model.losses(logits, train_label_batch)        
-    train_op = model.trainning(loss, learning_rate)
-    acc = model.evaluation(logits, train_label_batch)
+
     
     x = tf.placeholder(tf.float32, shape=[BATCH_SIZE, IMG_W, IMG_H, 3])
     y_ = tf.placeholder(tf.int16, shape=[BATCH_SIZE])
+    
+    logits = model.inference(x, BATCH_SIZE, N_CLASSES)
+    loss = model.losses(logits, y_)  
+    acc = model.evaluation(logits, y_)
+    train_op = model.trainning(loss, learning_rate)
+    
     
              
     with tf.Session() as sess:
