@@ -8,7 +8,7 @@
 *  Youtube: https://www.youtube.com/c/KevinXu (videos were recorded in Chinese, 中文视频) 
 *  微博: http://weibo.com/3983872447/profile
 *  优酷: http://i.youku.com/deeplearning101
-*  深度学习QQ群: 153032765 (人满),  请加2群：462661267
+*  深度学习QQ群: 153032765 (人满),  2群：462661267(人满)， 3群：264976854
 
 
 
