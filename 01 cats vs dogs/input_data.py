@@ -1,6 +1,11 @@
 #By @Kevin Xu
 #kevin28520@gmail.com
 
+# 11.08 2017 更新
+# 最近入驻了网易云课堂讲师，我的第一门课《使用亚马逊云计算训练深度学习模型》。
+# 有兴趣的同学可以学习交流。
+# * 我的网易云课堂主页： http://study.163.com/provider/400000000275062/index.htm
+
 # 深度学习QQ群, 1群满): 153032765
 # 2群：462661267
 #The aim of this project is to use TensorFlow to process our own data.
