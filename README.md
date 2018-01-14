@@ -4,10 +4,10 @@ This repo contains Tensorflow & deep learning projects.
 2. Tensorflow, Keras
   
 # Where to find me (for Chinese readers)?
-*  网易云课堂：http://study.163.com/provider/400000000275062/index.htm `(第一时间更新在这里).`
+*  网易云课堂：http://study.163.com/provider/400000000275062/index.htm
 *  Youtube: https://www.youtube.com/c/KevinXu 
 *  微博: http://weibo.com/3983872447/profile
-*  深度学习QQ群: 153032765 (人满),  2群：462661267(人满)， 3群：264976854
+*  深度学习QQ群: 153032765 (人满),  2群：462661267(人满)， 3群：264976854(人满)，深度学习TF-4群：120983724
 
 
 
