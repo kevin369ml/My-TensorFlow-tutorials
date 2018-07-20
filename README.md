@@ -1,3 +1,5 @@
+## (Note that this repo is NOT going to be updated anymore, tensorflow version used in this repo was very old. -- July 19th, 2018)
+
 # My-TensorFlow-tutorials
 This repo contains Tensorflow & deep learning projects.
 1. Deep Learning (as well as traditional Machine Learning, Data Mining).
