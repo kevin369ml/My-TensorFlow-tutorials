@@ -69,7 +69,7 @@ def run_training():
 
     
     x = tf.placeholder(tf.float32, shape=[BATCH_SIZE, IMG_W, IMG_H, 3])
-    y_ = tf.placeholder(tf.int16, shape=[BATCH_SIZE])
+    y_ = tf.placeholder(tf.int32, shape=[BATCH_SIZE])
     
     logits = model.inference(x, BATCH_SIZE, N_CLASSES)
     loss = model.losses(logits, y_)  
