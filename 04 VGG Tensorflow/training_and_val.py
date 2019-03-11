@@ -92,7 +92,7 @@ def train():
                                             feed_dict={x:tra_images, y_:tra_labels})            
             if step % 50 == 0 or (step + 1) == MAX_STEP:                 
                 print ('Step: %d, loss: %.4f, accuracy: %.4f%%' % (step, tra_loss, tra_acc))
-                summary_str = sess.run(summary_op)
+                summary_str = sess.run(summary_op, feed_dict={x:tra_images, y_:tra_labels})
                 tra_summary_writer.add_summary(summary_str, step)
                 
             if step % 200 == 0 or (step + 1) == MAX_STEP:
@@ -101,7 +101,7 @@ def train():
                                              feed_dict={x:val_images,y_:val_labels})
                 print('**  Step %d, val loss = %.2f, val accuracy = %.2f%%  **' %(step, val_loss, val_acc))
 
-                summary_str = sess.run(summary_op)
+                summary_str = sess.run(summary_op, feed_dict={x:tra_images, y_:tra_labels})
                 val_summary_writer.add_summary(summary_str, step)
                     
             if step % 2000 == 0 or (step + 1) == MAX_STEP:
