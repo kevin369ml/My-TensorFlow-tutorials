@@ -4,8 +4,6 @@
 This repo contains Tensorflow & deep learning projects.
 1. Deep Learning (as well as traditional Machine Learning, Data Mining).
 2. Tensorflow, Keras
-  
-*  Youtube: https://www.youtube.com/c/KevinXu 
 
 
 
